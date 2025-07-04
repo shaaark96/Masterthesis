@@ -8,7 +8,7 @@
 # In[49]:
 
 
-get_ipython().system('pip install ipynbname')
+#get_ipython().system('pip install ipynbname')
 
 
 # In[39]:
@@ -30,7 +30,7 @@ import webbrowser
 from sklearn.decomposition import PCA
 import os
 from dash import Dash
-import ipynbname
+#import ipynbname
 
 
 # ### Datein laden
