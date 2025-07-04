@@ -6,3 +6,4 @@ scikit-learn>=1.0.0
 plotly>=5.18.0
 pyproj>=3.0.0
 gunicorn
+ipynbname
