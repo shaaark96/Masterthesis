@@ -1,0 +1,106 @@
+:root {
+    --primary-bg: #2f2e88;       /* Dunkelviolett */
+    --accent-color: #fca311;     /* Dunkelorange */
+    --light-bg: #303030;         /* Helles Grau */
+    --text-light: #ffffff;       /* Weiß */
+    --text-dark: #333333;        /* Dunkelgrau für Text */
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    box-sizing: border-box;  /* wichtig für Padding und Breiten */
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+}
+
+.dashboard-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    background-color: var(--light-bg);
+    color: var(--text-light);
+    margin-bottom: 0;
+}
+
+.title-container {
+    background-color: var(--light-bg);
+}
+
+.tabs-container {
+    margin: 10px 20px;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;       /* max Breite der gesamten App */
+    margin: 0 auto;          /* zentriert horizontal */
+    padding: 20px;
+    gap: 20px;               /* Abstand zwischen Sidebar und Content */
+}
+
+.sidebar {
+    flex: 0 0 250px;         /* fixe Breite, schrumpft nicht */
+    background-color: var(--primary-bg);
+    color: var(--text-light);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.sidebar h3,
+.sidebar a {
+    color: var(--text-light);
+}
+
+.sidebar a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.content-area {
+    flex: 1 1 auto;          /* nimmt restliche Breite ein */
+    max-width: 1530px;       /* 1300 - 250 (Sidebar) - 20 (gap) */
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 12px;
+    overflow: hidden;        /* verhindert Overflow */
+}
+
+.dropdown {
+    margin-bottom: 15px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.graph-box {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid var(--accent-color);
+    min-width: 0;            /* wichtig, damit Flex-Kinder schrumpfen */
+}
+
+.map-box {
+    width: 100%;             /* volle Breite vom Container */
+    height: 500px;           /* kannst du anpassen */
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    border-top: 4px solid var(--accent-color);
+    min-width: 0;            /* wichtig */
+}

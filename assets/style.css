@@ -8,7 +8,7 @@
 }
 
 * {
-    box-sizing: border-box;  /* wichtig für Padding und Breiten */
+    box-sizing: border-box;
 }
 
 body {
@@ -38,14 +38,14 @@ body {
 .main-layout {
     display: flex;
     flex-direction: row;
-    max-width: 1900px;       /* max Breite der gesamten App */
-    margin: 0 auto;          /* zentriert horizontal */
+    max-width: 1900px;
+    margin: 0 auto;
     padding: 20px;
-    gap: 20px;               /* Abstand zwischen Sidebar und Content */
+    gap: 20px;
 }
 
 .sidebar {
-    flex: 0 0 250px;         /* fixe Breite, schrumpft nicht */
+    flex: 0 0 250px;
     background-color: var(--primary-bg);
     color: var(--text-light);
     padding: 10px;
@@ -63,17 +63,46 @@ body {
     text-decoration: underline;
 }
 
+/* 🆕 Stil für Filterüberschriften */
+.sidebar label {
+font-size: 2em;       /* oder z.B. 16px */
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-light);
+    margin-bottom: 5px;
+    display: block;
+}
+
 .content-area {
-    flex: 1 1 auto;          /* nimmt restliche Breite ein */
-    max-width: 1530px;       /* 1300 - 250 (Sidebar) - 20 (gap) */
+    flex: 1 1 auto;
+    max-width: 1530px;
     background-color: #303030;
     padding: 10px;
     border-radius: 12px;
-    overflow: hidden;        /* verhindert Overflow */
+    overflow: hidden;
 }
 
 .dropdown {
     margin-bottom: 15px;
+}
+
+/* 🆕 Dropdown-Styling */
+.Select-control {
+    background-color: var(--primary-bg);  /* Hintergrund Dropdown-Eingabe */
+    color: var(--text-light);             /* Schriftfarbe */
+    border-radius: 6px;
+    border: none;
+}
+
+.Select-menu-outer {
+    background-color: var(--primary-bg);  /* Hintergrund geöffnetes Menü */
+    color: var(--text-light);             /* Schriftfarbe */
+    border-radius: 6px;
+    border: none;
+}
+
+.VirtualizedSelectOption {
+    color: var(--text-light);
 }
 
 .row-container {
@@ -91,16 +120,16 @@ body {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-top: 4px solid var(--accent-color);
-    min-width: 0;            /* wichtig, damit Flex-Kinder schrumpfen */
+    min-width: 0;
 }
 
 .map-box {
-    width: 100%;             /* volle Breite vom Container */
-    height: 500px;           /* kannst du anpassen */
+    width: 100%;
+    height: 500px;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     border-top: 4px solid var(--accent-color);
-    min-width: 0;            /* wichtig */
+    min-width: 0;
 }

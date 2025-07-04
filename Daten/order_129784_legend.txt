@@ -1,0 +1,240 @@
+Bundesamt für Meteorologie und Klimatologie, MeteoSchweiz
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+stn yyyyMMddHHmm
+
+stn Stationskürzel
+y   Jahr
+M   Monat
+d   Tag
+H   Stunde
+m   Minute
+
+Zeitangaben in UTC: 00:40 UTC = 02:40 Sommerzeit
+                              = 01:40 Winterzeit
+
+Zeitbezug bei Stundenwerten, sofern in der Parameterbeschreibung nicht anders vermerkt: HH  = (HH-1):01 - HH:00
+Beispiel: 13 = beinhaltet Messperiode von 12:01 bis 13:00 
+
+Fehlende Messwerte sind gekenntzeichnet mit '-'
+
+Qualitätsinformationen: Die Legende zu den Qualitätsinformationen ist zu finden unter: https://gate.meteoswiss.ch/idaweb/text/datenqualitaet_legende_de.pdf
+
+ 
+
+
+
+
+Stationen
+---------
+stn       Name                                 Parameter        Datenquelle                                        Länge/Breite             Koordinaten [km] Höhe ü. M. [m]
+ALT       Altdorf                              tre200dv         MeteoSchweiz                                       8°37'/46°53'             690180/193564    437
+ALT       Altdorf                              tre200d0         MeteoSchweiz                                       8°37'/46°53'             690180/193564    437
+ALT       Altdorf                              rzz150dx         MeteoSchweiz                                       8°37'/46°53'             690180/193564    437
+ALT       Altdorf                              rka150d0         MeteoSchweiz                                       8°37'/46°53'             690180/193564    437
+ALT       Altdorf                              su2000d0         MeteoSchweiz                                       8°37'/46°53'             690180/193564    437
+ALT       Altdorf                              fu3010d0         MeteoSchweiz                                       8°37'/46°53'             690180/193564    437
+ALT       Altdorf                              tso100d0         unknown                                            8°37'/46°53'             690180/193564    437
+ANT       Andermatt                            tre200dv         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1434
+ANT       Andermatt                            tre200d0         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1434
+ANT       Andermatt                            rzz150dx         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1434
+ANT       Andermatt                            rka150d0         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1434
+ANT       Andermatt                            su2000d0         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1434
+ANT       Andermatt                            fu3010d0         MeteoSchweiz                                       8°35'/46°38'             687444/165044    1434
+ANT       Andermatt                            tso100d0         unknown                                            8°35'/46°38'             687444/165044    1434
+RAG       Bad Ragaz                            tre200dv         MeteoSchweiz                                       9°30'/47°01'             756910/209350    496
+RAG       Bad Ragaz                            tre200d0         MeteoSchweiz                                       9°30'/47°01'             756910/209350    496
+RAG       Bad Ragaz                            rzz150dx         MeteoSchweiz                                       9°30'/47°01'             756910/209350    496
+RAG       Bad Ragaz                            rka150d0         MeteoSchweiz                                       9°30'/47°01'             756910/209350    496
+RAG       Bad Ragaz                            su2000d0         MeteoSchweiz                                       9°30'/47°01'             756910/209350    496
+RAG       Bad Ragaz                            fu3010d0         MeteoSchweiz                                       9°30'/47°01'             756910/209350    496
+RAG       Bad Ragaz                            tso100d0         unknown                                            9°30'/47°01'             756910/209350    496
+BAS       Basel / Binningen                    tre200dv         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BAS       Basel / Binningen                    tre200d0         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BAS       Basel / Binningen                    rzz150dx         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BAS       Basel / Binningen                    rka150d0         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BAS       Basel / Binningen                    su2000d0         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BAS       Basel / Binningen                    fu3010d0         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BAS       Basel / Binningen                    tso100d0         MeteoSchweiz                                       7°35'/47°32'             610908/265611    316
+BER       Bern / Zollikofen                    tre200dv         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+BER       Bern / Zollikofen                    tre200d0         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+BER       Bern / Zollikofen                    rzz150dx         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+BER       Bern / Zollikofen                    rka150d0         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+BER       Bern / Zollikofen                    su2000d0         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+BER       Bern / Zollikofen                    fu3010d0         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+BER       Bern / Zollikofen                    tso100d0         MeteoSchweiz                                       7°28'/46°59'             601933/204409    552
+CHM       Chaumont                             tre200dv         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+CHM       Chaumont                             tre200d0         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+CHM       Chaumont                             rzz150dx         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+CHM       Chaumont                             rka150d0         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+CHM       Chaumont                             su2000d0         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+CHM       Chaumont                             fu3010d0         MeteoSchweiz                                       6°59'/47°03'             565060/211006    1136
+CHM       Chaumont                             tso100d0         unknown                                            6°59'/47°03'             565060/211006    1136
+CHD       Château-d'Oex                        tre200dv         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+CHD       Château-d'Oex                        tre200d0         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+CHD       Château-d'Oex                        rzz150dx         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+CHD       Château-d'Oex                        rka150d0         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+CHD       Château-d'Oex                        su2000d0         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+CHD       Château-d'Oex                        fu3010d0         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+CHD       Château-d'Oex                        tso100d0         MeteoSchweiz                                       7°08'/46°29'             577040/147654    1028
+GSB       Col du Grand St-Bernard              tre200dv         MeteoSchweiz                                       7°10'/45°52'             579192/79753     2472
+GSB       Col du Grand St-Bernard              tre200d0         MeteoSchweiz                                       7°10'/45°52'             579192/79753     2472
+GSB       Col du Grand St-Bernard              rzz150dx         MeteoSchweiz                                       7°10'/45°52'             579192/79753     2472
+GSB       Col du Grand St-Bernard              rka150d0         MeteoSchweiz                                       7°10'/45°52'             579192/79753     2472
+GSB       Col du Grand St-Bernard              su2000d0         MeteoSchweiz                                       7°10'/45°52'             579192/79753     2472
+GSB       Col du Grand St-Bernard              fu3010d0         MeteoSchweiz                                       7°10'/45°52'             579192/79753     2472
+GSB       Col du Grand St-Bernard              tso100d0         unknown                                            7°10'/45°52'             579192/79753     2472
+DAV       Davos                                tre200dv         MeteoSchweiz                                       9°51'/46°49'             783518/187458    1594
+DAV       Davos                                tre200d0         MeteoSchweiz                                       9°51'/46°49'             783518/187458    1594
+DAV       Davos                                rzz150dx         MeteoSchweiz                                       9°51'/46°49'             783518/187458    1594
+DAV       Davos                                rka150d0         MeteoSchweiz                                       9°51'/46°49'             783518/187458    1594
+DAV       Davos                                su2000d0         MeteoSchweiz                                       9°51'/46°49'             783518/187458    1594
+DAV       Davos                                fu3010d0         MeteoSchweiz                                       9°51'/46°49'             783518/187458    1594
+DAV       Davos                                tso100d0         unknown                                            9°51'/46°49'             783518/187458    1594
+ELM       Elm                                  tre200dv         MeteoSchweiz                                       9°11'/46°55'             732265/198424    957
+ELM       Elm                                  tre200d0         MeteoSchweiz                                       9°11'/46°55'             732265/198424    957
+ELM       Elm                                  rzz150dx         MeteoSchweiz                                       9°11'/46°55'             732265/198424    957
+ELM       Elm                                  rka150d0         MeteoSchweiz                                       9°11'/46°55'             732265/198424    957
+ELM       Elm                                  su2000d0         MeteoSchweiz                                       9°11'/46°55'             732265/198424    957
+ELM       Elm                                  fu3010d0         MeteoSchweiz                                       9°11'/46°55'             732265/198424    957
+ELM       Elm                                  tso100d0         unknown                                            9°11'/46°55'             732265/198424    957
+ENG       Engelberg                            tre200dv         MeteoSchweiz                                       8°25'/46°49'             674160/186069    1035
+ENG       Engelberg                            tre200d0         MeteoSchweiz                                       8°25'/46°49'             674160/186069    1035
+ENG       Engelberg                            rzz150dx         MeteoSchweiz                                       8°25'/46°49'             674160/186069    1035
+ENG       Engelberg                            rka150d0         MeteoSchweiz                                       8°25'/46°49'             674160/186069    1035
+ENG       Engelberg                            su2000d0         MeteoSchweiz                                       8°25'/46°49'             674160/186069    1035
+ENG       Engelberg                            fu3010d0         MeteoSchweiz                                       8°25'/46°49'             674160/186069    1035
+ENG       Engelberg                            tso100d0         unknown                                            8°25'/46°49'             674160/186069    1035
+GVE       Genève / Cointrin                    tre200dv         MeteoSchweiz                                       6°08'/46°15'             498904/122631    410
+GVE       Genève / Cointrin                    tre200d0         MeteoSchweiz                                       6°08'/46°15'             498904/122631    410
+GVE       Genève / Cointrin                    rzz150dx         MeteoSchweiz                                       6°08'/46°15'             498904/122631    410
+GVE       Genève / Cointrin                    rka150d0         MeteoSchweiz                                       6°08'/46°15'             498904/122631    410
+GVE       Genève / Cointrin                    su2000d0         MeteoSchweiz                                       6°08'/46°15'             498904/122631    410
+GVE       Genève / Cointrin                    fu3010d0         MeteoSchweiz                                       6°08'/46°15'             498904/122631    410
+GVE       Genève / Cointrin                    tso100d0         unknown                                            6°08'/46°15'             498904/122631    410
+GRH       Grimsel Hospiz                       tre200dv         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRH       Grimsel Hospiz                       tre200d0         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRH       Grimsel Hospiz                       rzz150dx         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRH       Grimsel Hospiz                       rka150d0         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRH       Grimsel Hospiz                       su2000d0         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRH       Grimsel Hospiz                       fu3010d0         MeteoSchweiz                                       8°20'/46°34'             668583/158215    1980
+GRH       Grimsel Hospiz                       tso100d0         unknown                                            8°20'/46°34'             668583/158215    1980
+GRC       Grächen                              tre200dv         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GRC       Grächen                              tre200d0         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GRC       Grächen                              rzz150dx         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GRC       Grächen                              rka150d0         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GRC       Grächen                              su2000d0         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GRC       Grächen                              fu3010d0         MeteoSchweiz                                       7°50'/46°12'             630738/116062    1605
+GRC       Grächen                              tso100d0         unknown                                            7°50'/46°12'             630738/116062    1605
+JUN       Jungfraujoch                         tre200dv         MeteoSchweiz                                       7°59'/46°33'             641938/155287    3571
+JUN       Jungfraujoch                         tre200d0         MeteoSchweiz                                       7°59'/46°33'             641938/155287    3571
+JUN       Jungfraujoch                         rzz150dx         unknown                                            7°59'/46°33'             641938/155287    3571
+JUN       Jungfraujoch                         rka150d0         unknown                                            7°59'/46°33'             641938/155287    3571
+JUN       Jungfraujoch                         su2000d0         MeteoSchweiz                                       7°59'/46°33'             641938/155287    3571
+JUN       Jungfraujoch                         fu3010d0         MeteoSchweiz                                       7°59'/46°33'             641938/155287    3571
+JUN       Jungfraujoch                         tso100d0         unknown                                            7°59'/46°33'             641938/155287    3571
+CDF       La Chaux-de-Fonds                    tre200dv         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+CDF       La Chaux-de-Fonds                    tre200d0         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+CDF       La Chaux-de-Fonds                    rzz150dx         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+CDF       La Chaux-de-Fonds                    rka150d0         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+CDF       La Chaux-de-Fonds                    su2000d0         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+CDF       La Chaux-de-Fonds                    fu3010d0         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+CDF       La Chaux-de-Fonds                    tso100d0         MeteoSchweiz                                       6°48'/47°05'             550919/214861    1017
+OTL       Locarno / Monti                      tre200dv         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+OTL       Locarno / Monti                      tre200d0         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+OTL       Locarno / Monti                      rzz150dx         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+OTL       Locarno / Monti                      rka150d0         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+OTL       Locarno / Monti                      su2000d0         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+OTL       Locarno / Monti                      fu3010d0         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+OTL       Locarno / Monti                      tso100d0         MeteoSchweiz                                       8°47'/46°10'             704166/114316    366
+LUG       Lugano                               tre200dv         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUG       Lugano                               tre200d0         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUG       Lugano                               rzz150dx         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUG       Lugano                               rka150d0         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUG       Lugano                               su2000d0         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUG       Lugano                               fu3010d0         MeteoSchweiz                                       8°58'/46°00'             717873/95884     273
+LUG       Lugano                               tso100d0         unknown                                            8°58'/46°00'             717873/95884     273
+LUZ       Luzern                               tre200dv         MeteoSchweiz                                       8°18'/47°02'             665543/209849    454
+LUZ       Luzern                               tre200d0         MeteoSchweiz                                       8°18'/47°02'             665543/209849    454
+LUZ       Luzern                               rzz150dx         MeteoSchweiz                                       8°18'/47°02'             665543/209849    454
+LUZ       Luzern                               rka150d0         MeteoSchweiz                                       8°18'/47°02'             665543/209849    454
+LUZ       Luzern                               su2000d0         MeteoSchweiz                                       8°18'/47°02'             665543/209849    454
+LUZ       Luzern                               fu3010d0         MeteoSchweiz                                       8°18'/47°02'             665543/209849    454
+LUZ       Luzern                               tso100d0         unknown                                            8°18'/47°02'             665543/209849    454
+MER       Meiringen                            tre200dv         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MER       Meiringen                            tre200d0         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MER       Meiringen                            rzz150dx         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MER       Meiringen                            rka150d0         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MER       Meiringen                            su2000d0         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MER       Meiringen                            fu3010d0         MeteoSchweiz                                       8°10'/46°44'             655844/175930    588
+MER       Meiringen                            tso100d0         unknown                                            8°10'/46°44'             655844/175930    588
+NEU       Neuchâtel                            tre200dv         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+NEU       Neuchâtel                            tre200d0         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+NEU       Neuchâtel                            rzz150dx         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+NEU       Neuchâtel                            rka150d0         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+NEU       Neuchâtel                            su2000d0         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+NEU       Neuchâtel                            fu3010d0         MeteoSchweiz                                       6°57'/47°00'             563086/205559    485
+NEU       Neuchâtel                            tso100d0         unknown                                            6°57'/47°00'             563086/205559    485
+SBE       S. Bernardino                        tre200dv         MeteoSchweiz                                       9°11'/46°28'             734115/147294    1638
+SBE       S. Bernardino                        tre200d0         MeteoSchweiz                                       9°11'/46°28'             734115/147294    1638
+SBE       S. Bernardino                        rzz150dx         MeteoSchweiz                                       9°11'/46°28'             734115/147294    1638
+SBE       S. Bernardino                        rka150d0         MeteoSchweiz                                       9°11'/46°28'             734115/147294    1638
+SBE       S. Bernardino                        su2000d0         MeteoSchweiz                                       9°11'/46°28'             734115/147294    1638
+SBE       S. Bernardino                        fu3010d0         MeteoSchweiz                                       9°11'/46°28'             734115/147294    1638
+SBE       S. Bernardino                        tso100d0         unknown                                            9°11'/46°28'             734115/147294    1638
+SAM       Samedan                              tre200dv         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SAM       Samedan                              tre200d0         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SAM       Samedan                              rzz150dx         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SAM       Samedan                              rka150d0         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SAM       Samedan                              su2000d0         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SAM       Samedan                              fu3010d0         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SAM       Samedan                              tso100d0         MeteoSchweiz                                       9°53'/46°32'             787249/155685    1708
+SIA       Segl-Maria                           tre200dv         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIA       Segl-Maria                           tre200d0         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIA       Segl-Maria                           rzz150dx         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIA       Segl-Maria                           rka150d0         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIA       Segl-Maria                           su2000d0         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIA       Segl-Maria                           fu3010d0         MeteoSchweiz                                       9°46'/46°26'             778574/144976    1804
+SIA       Segl-Maria                           tso100d0         unknown                                            9°46'/46°26'             778574/144976    1804
+SIO       Sion                                 tre200dv         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+SIO       Sion                                 tre200d0         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+SIO       Sion                                 rzz150dx         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+SIO       Sion                                 rka150d0         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+SIO       Sion                                 su2000d0         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+SIO       Sion                                 fu3010d0         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+SIO       Sion                                 tso100d0         MeteoSchweiz                                       7°20'/46°13'             591633/118583    482
+STG       St. Gallen                           tre200dv         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+STG       St. Gallen                           tre200d0         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+STG       St. Gallen                           rzz150dx         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+STG       St. Gallen                           rka150d0         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+STG       St. Gallen                           su2000d0         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+STG       St. Gallen                           fu3010d0         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+STG       St. Gallen                           tso100d0         MeteoSchweiz                                       9°24'/47°26'             747865/254588    775
+SAE       Säntis                               tre200dv         MeteoSchweiz                                       9°21'/47°15'             744187/234920    2501
+SAE       Säntis                               tre200d0         MeteoSchweiz                                       9°21'/47°15'             744187/234920    2501
+SAE       Säntis                               rzz150dx         MeteoSchweiz                                       9°21'/47°15'             744187/234920    2501
+SAE       Säntis                               rka150d0         MeteoSchweiz                                       9°21'/47°15'             744187/234920    2501
+SAE       Säntis                               su2000d0         MeteoSchweiz                                       9°21'/47°15'             744187/234920    2501
+SAE       Säntis                               fu3010d0         MeteoSchweiz                                       9°21'/47°15'             744187/234920    2501
+SAE       Säntis                               tso100d0         unknown                                            9°21'/47°15'             744187/234920    2501
+SMA       Zürich / Fluntern                    tre200dv         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+SMA       Zürich / Fluntern                    tre200d0         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+SMA       Zürich / Fluntern                    rzz150dx         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+SMA       Zürich / Fluntern                    rka150d0         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+SMA       Zürich / Fluntern                    su2000d0         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+SMA       Zürich / Fluntern                    fu3010d0         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+SMA       Zürich / Fluntern                    tso100d0         MeteoSchweiz                                       8°34'/47°23'             685116/248065    555
+
+Parameter
+---------
+          Einheit                              Beschreibung
+tre200dv  °C                                   Lufttemperatur 2 m über Boden; Abweichung des Tagesmittels von der Norm
+tre200d0  °C                                   Lufttemperatur 2 m über Boden; Tagesmittel
+rzz150dx  mm                                   Niederschlag; grösste Zehnminutensumme des Tages (Kalendertag)
+rka150d0  mm                                   Niederschlag; Tagessumme 0 UTC - 0 UTC
+su2000d0  h                                    Sonnenscheindauer; Tagessumme
+fu3010d0  km/h                                 Windgeschwindigkeit skalar; Tagesmittel in km/h
+tso100d0  °C                                   Bodentemperatur 100 cm Tiefe; Tagesmittel
+
